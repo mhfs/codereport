@@ -16,9 +16,13 @@ issue and let me know.
 Just clone the repo or add it to your Gemfile and use it
 programmatically (see cli.rb for an example).
 
+## Dependencies
+
+Codereport depends on [Pygments](http://pygments.org/docs/installation/).
+
 ## Usage
 
-Clone the repo and use the executable like this:
+Clone the repo, run `bundle install` and use the executable like this:
 
 ```
 bundle exec bin/codereport
