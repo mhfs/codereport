@@ -52,6 +52,15 @@ bundle exec bin/codereport generate --title ISSIntegral --paths ./lib/codereport
 --format html --extensions rb --output myreport
 ```
 
+## Limitations
+
+I only mapped a few extensions to Pygments' highlighters. See
+language_detector.rb and open an issue if you want more extensions.
+
+## TODO
+
+* Write tests #facepalm
+
 ## Contributing
 
 Fork the [Codereport repository on GitHub](https://github.com/mhfs/codereport)
