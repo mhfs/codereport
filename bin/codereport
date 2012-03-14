@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require "codereport"
+
+Codereport::CLI.start

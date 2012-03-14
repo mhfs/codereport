@@ -1,0 +1,4 @@
+h1 { color: #777; }
+h2 { color: #999; border-bottom: 2px solid #999; }
+h2 small { color: #AAA; font-size: 15px; }
+pre { white-space: pre-wrap; }
