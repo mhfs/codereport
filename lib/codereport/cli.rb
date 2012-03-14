@@ -11,7 +11,7 @@ module Codereport
     method_option :paths,     :type => :array,  :required => false, :default => ["."]
     method_option :output,    :type => :string, :required => false, :default => "output"
     method_option :format,    :type => :string, :required => false, :default => "pdf"
-    method_option :extensions,:type => :string, :required => false
+    method_option :extensions,:type => :array,  :required => false
 
     def generate
       Document.new(options[:title], options[:paths], options[:extensions]).to_file(options[:output], options[:format])
