@@ -48,7 +48,7 @@ Options:
 A real world example:
 
 ```
-bundle exec bin/codereport generate --title ISSIntegral --paths ./lib/codereport.rb ./lib/codereport/
+bundle exec bin/codereport generate --title Codereport --paths ./lib/codereport.rb ./lib/codereport/
 --format html --extensions rb --output myreport
 ```
 
